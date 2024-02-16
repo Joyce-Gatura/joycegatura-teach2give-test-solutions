@@ -1,0 +1,15 @@
+"""write a program that count the number of vowels in a sentence"""
+
+
+def count_vowels(sentence):
+    vowels = 'aeiou'
+    count = 0
+    for letters in sentence:
+        if letters in vowels:
+            count += 1
+    return count
+
+sentence = input("Enter your sentence: ")
+
+print("Number of vowels are:", count_vowels(sentence))
+
