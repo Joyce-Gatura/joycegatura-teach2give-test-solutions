@@ -1,0 +1,10 @@
+"""write a program to reverse an input and return an integer with reversed digit ordering"""
+
+
+num= int (input("enter the numbers:"))
+reversed_number = 0
+while(num>0):
+    rem=num%10
+    reversed_number=(reversed_number*10) + rem
+    num=num//10
+    print("the reversed number is: {}".format(reversed_number))
