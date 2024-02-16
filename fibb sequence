@@ -1,0 +1,12 @@
+"""write a program that generates fibonacci sequence  up to 100"""
+
+
+
+k, m = 0,1
+fib_sequence = []
+while k<= 100:
+    fib_sequence.append(k)
+    k,m = m,k + m
+
+print("Fibb sequence is:")
+print(fib_sequence)
