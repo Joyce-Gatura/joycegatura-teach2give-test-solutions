@@ -1,0 +1,7 @@
+"""write a program that accepts a string as an input,capitalizes the first letter
+ of each word in the string and returns the result string"""
+
+
+str=input( "enter string")
+capitalized_str=str.title()
+print(capitalized_str)
